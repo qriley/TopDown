@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="140034d7-8d69-48bd-b0d4-01319bc68dc4" name="Changes" comment="-Added game objects and an object handling queue.">
-      <change afterPath="$PROJECT_DIR$/src/BulletObj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MapGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlimeEnemyObj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BlobObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlobObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BlobObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnemyObj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +26,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -90,5 +95,24 @@
     <MESSAGE value="-Added window and basic classes to get this started" />
     <MESSAGE value="-Added game objects and an object handling queue." />
     <option name="LAST_COMMIT_MESSAGE" value="-Added game objects and an object handling queue." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlimeEnemyObj.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlimeEnemyObj.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TopDownShooter$Game.ic" NAME="Game Coverage Results" MODIFIED="1668639247713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

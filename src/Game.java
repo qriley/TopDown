@@ -16,7 +16,7 @@ public class Game extends Canvas implements Runnable{
         new Window(width,height, gameTitle+" - "+version, this);
         start();
         objQueue = new ObjectQueue();
-        objQueue.addObj(new BlobObj(100,100));
+        objQueue.addObj(new SlimeEnemyObj(100,100));
         objQueue.addObj(new BulletObj(100,100));
     }
     public void start(){

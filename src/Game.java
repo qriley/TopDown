@@ -8,11 +8,16 @@ public class Game extends Canvas implements Runnable{
     public String gameVersion;
     public String gameTitle = "Shooty Gun Gun";
     private boolean isRunning = false;
+
     private Thread thread;
+    private ObjectQueue objQueue;
     public Game(String version){
         gameVersion = version;
         new Window(width,height, gameTitle+" - "+version, this);
         start();
+        objQueue = new ObjectQueue();
+        objQueue.addObj(new BlobObj(100,100));
+        objQueue.addObj(new BulletObj(100,100));
     }
     public void start(){
         isRunning = true;
@@ -58,7 +63,7 @@ public class Game extends Canvas implements Runnable{
         stop();
     }
     public void tick(){
-
+        objQueue.onTick();
     }
     public void render(){
         BufferStrategy buff= this.getBufferStrategy();
@@ -71,6 +76,9 @@ public class Game extends Canvas implements Runnable{
 
         graphic.setColor(Color.BLUE);
         graphic.fillRect(0,0,width,height);
+
+        objQueue.onRender(graphic);
+
         graphic.dispose();
         buff.show();
     }

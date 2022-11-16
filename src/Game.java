@@ -17,6 +17,7 @@ public class Game extends Canvas implements Runnable{
         start();
         objQueue = new ObjectQueue();
         objQueue.addObj(new BlobObj(100,100));
+        objQueue.addObj(new BulletObj(100,100));
     }
     public void start(){
         isRunning = true;

@@ -1,7 +1,7 @@
 import java.awt.*;
 
 public class BlobObj extends InGameObj{
-
+//todo: create enemy object, blob will be enemy. enemy will have health, speed when aggro, graphic image and bounds for weapon collision.
     private boolean isAggro = false;
     public BlobObj(int x, int y) {
         super(x, y);

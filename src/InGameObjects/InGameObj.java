@@ -14,7 +14,10 @@ public abstract class InGameObj {
     }
     public abstract void actionUpdate();
     public abstract void render(Graphics g,int spriteNum);
-    public abstract Rectangle getBounds();//todo: setup the bounds for collision
+    public Rectangle getBounds() {
+        return new Rectangle(this.coordX,this.coordY,this.width,this.height);
+    }
+    public abstract void collideAction(char dir, InGameObj collidedWith);
 
     public int getCoordX(){
         return coordX;

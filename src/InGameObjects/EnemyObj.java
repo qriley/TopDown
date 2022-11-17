@@ -63,11 +63,6 @@ public abstract class EnemyObj extends InGameObj{
     }
 
     @Override
-    public Rectangle getBounds() {
-        return new Rectangle(this.coordX,this.coordY,this.width,this.height);
-    }
-
-    @Override
     public void render(Graphics g,int spriteNum) {
         //g.setColor(Color.green);
         //g.fillRect(coordX,coordY,16,16);

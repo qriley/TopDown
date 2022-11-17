@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="140034d7-8d69-48bd-b0d4-01319bc68dc4" name="Changes" comment="fix out print">
+    <list default="true" id="140034d7-8d69-48bd-b0d4-01319bc68dc4" name="Changes" comment="Streamlining some object movement. Adding height and width for collision.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InGameObjects/BulletObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InGameObjects/BulletObj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InGameObjects/EnemyObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InGameObjects/EnemyObj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InGameObjects/InGameObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InGameObjects/InGameObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InGameObjects/ItemObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InGameObjects/ItemObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InGameObjects/SlimeEnemyObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InGameObjects/SlimeEnemyObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668672828048</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Streamlining some object movement. Adding height and width for collision.">
+      <created>1668722379278</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668722379278</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,24 +150,36 @@
     <MESSAGE value="Refactoring and organization." />
     <MESSAGE value="Added a base itemObject" />
     <MESSAGE value="fix out print" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix out print" />
+    <MESSAGE value="Streamlining some object movement. Adding height and width for collision." />
+    <option name="LAST_COMMIT_MESSAGE" value="Streamlining some object movement. Adding height and width for collision." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Map/MapGrid.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/src/ObjectQueue.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Map/MapGrid.java</url>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ObjectQueue.java</url>
           <line>24</line>
-          <properties class="Map.MapGrid" method="LoadGraphics">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="20" />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ObjectQueue.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ObjectQueue.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ObjectQueue.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

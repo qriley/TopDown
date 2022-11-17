@@ -48,8 +48,7 @@ public class SlimeEnemyObj extends EnemyObj{
         //g.fillRect(coordX,coordY,16,16);
     }
 
-    @Override
-    public Rectangle getBounds() {
-        return null;
+    public void collideAction(char dir, InGameObj collidedWith){
+        //todo: build out the functionality when collides.
     }
 }

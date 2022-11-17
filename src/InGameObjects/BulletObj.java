@@ -54,12 +54,7 @@ public class BulletObj extends InGameObj{
     }
 
     @Override
-    public Rectangle getBounds() {
-        return null;
-    }
-
-    public void collideWithEnemy(){
-        //todo: build out the functionality when the bullet collides with an enemy.
-        //Perhaps if the x y plus offset of bullet is within the get bounds enemy takes damage
+    public void collideAction(char dir, InGameObj collidedWith){
+        //todo: build out the functionality when collides.
     }
 }

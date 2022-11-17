@@ -24,6 +24,7 @@ public abstract class EnemyObj extends InGameObj{
         enemyHealth = health;
         currHealth = health;
         level = lvl;
+        isAggro = false;
         aggroVel = aggroSpeed;
     }
 
@@ -44,8 +45,34 @@ public abstract class EnemyObj extends InGameObj{
         //g.fillRect(coordX,coordY,16,16);
     }
 
-    @Override
-    public Rectangle getBounds() {
-        return null;
+    public boolean getIsAggro(){
+        return isAggro;
+    }
+    public void setIsAggro(boolean aggro){
+        isAggro = aggro;
+    }
+    public int getAggroVel(){
+        return aggroVel;
+    }
+    public void setAggroVel(int vel){
+        aggroVel = vel;
+    }
+    public int getEnemyHealth(){
+        return enemyHealth;
+    }
+    public void setEnemyHealth(int health){
+        enemyHealth = health;
+    }
+    public int getLevel(){
+        return level;
+    }
+    public void setLevel(int lvl){
+        level = level;
+    }
+    public int getCurrHealth(){
+        return currHealth;
+    }
+    public void setCurrHealth(int health){
+        currHealth = health;
     }
 }

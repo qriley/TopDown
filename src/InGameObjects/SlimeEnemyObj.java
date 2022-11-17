@@ -7,11 +7,6 @@ import java.io.File;
 import java.io.IOException;
 
 public class SlimeEnemyObj extends EnemyObj{
-    private boolean isAggro = false;
-    private int aggroVel = 3; //default aggro vel 3
-    private int enemyHealth = 100; //default enemy health at 100
-    private int currHealth = 100; //default enemy health at 100
-    private int level = 1; //default level 1
 
 
     BufferedImage[] graphicImg = new BufferedImage[2];
@@ -40,8 +35,8 @@ public class SlimeEnemyObj extends EnemyObj{
     public void actionUpdate() {
         coordX+=velX;
         coordY+=velY;
-        if(isAggro){
-            velX=aggroVel;
+        if(this.getIsAggro()){
+            velX=this.getAggroVel();
         }else{
             velX=1;
         }

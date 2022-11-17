@@ -12,12 +12,12 @@ public class SlimeEnemyObj extends EnemyObj{
     BufferedImage[] graphicImg = new BufferedImage[2];
 
 
-    public SlimeEnemyObj(int x, int y) {
-        super(x, y);
+    public SlimeEnemyObj(int x, int y,int speed,int height1,int width1) {
+        super(x, y, speed, height1, width1);
         loadImage();
     }
-    public SlimeEnemyObj(int x, int y, int health, int speed, int lvl, int aggroSpeed) {
-        super(x, y, health, speed, lvl, aggroSpeed);
+    public SlimeEnemyObj(int x, int y, int health, int speed, int lvl, int aggroSpeed, char dir, int height1, int width1) {
+        super(x, y, health, speed, lvl, aggroSpeed, dir, height1, width1);
         loadImage();
     }
 
@@ -31,7 +31,7 @@ public class SlimeEnemyObj extends EnemyObj{
             System.out.println(e.toString());
         }
     }
-    @Override
+    /*@Override
     public void actionUpdate() {
         coordX+=velX;
         coordY+=velY;
@@ -40,7 +40,7 @@ public class SlimeEnemyObj extends EnemyObj{
         }else{
             velX=1;
         }
-    }
+    }*/
 
     public void render(Graphics g,int spriteNum) {
         g.drawImage(graphicImg[spriteNum],coordX,coordY,null);

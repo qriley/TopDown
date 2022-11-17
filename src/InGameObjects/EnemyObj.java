@@ -9,34 +9,62 @@ public abstract class EnemyObj extends InGameObj{
     private int enemyHealth = 100; //default enemy health at 100
     private int level = 1; //default level 1
     private int currHealth = enemyHealth; //default enemy health at 100
+    private char direction;
 
 
     BufferedImage graphicImg[] = null;
 
 
-    public EnemyObj(int x, int y) {
-        super(x, y);
-        velX=1;
+    public EnemyObj(int x, int y,int speed,int height1,int width1) {
+        super(x, y, height1, width1);
+        this.vel=speed;
     }
-    public EnemyObj(int x, int y, int health, int speed, int lvl, int aggroSpeed) {
-        super(x, y);
-        velX=speed;
-        enemyHealth = health;
-        currHealth = health;
-        level = lvl;
-        isAggro = false;
-        aggroVel = aggroSpeed;
+    public EnemyObj(int x, int y, int health, int speed, int lvl, int aggroSpeed, char dir,int height1,int width1) {
+        super(x, y, height1, width1);
+        this.vel=speed;
+        this.enemyHealth = health;
+        this.currHealth = health;
+        this.level = lvl;
+        this.isAggro = false;
+        this.aggroVel = aggroSpeed;
+        this.direction = dir;
     }
 
     @Override
     public void actionUpdate() {
-        coordX+=velX;
-        coordY+=velY;
-        if(isAggro){
-            velX=3;
-        }else{
-            velX=1;
+
+        int actualSpeed=vel;
+
+        if(isAggro)actualSpeed=aggroVel;
+
+        switch(direction){
+
+            case 'u':
+                coordY+=actualSpeed;
+                break;
+
+            case 'd':
+                coordY-=actualSpeed;
+                break;
+
+            case 'l':
+                coordX-=actualSpeed;
+                break;
+
+            case 'r':
+                coordX+=actualSpeed;
+                break;
+
+            case 'n':
+                coordX+=0;
+                coordY+=0;
+                break;
         }
+    }
+
+    @Override
+    public Rectangle getBounds() {
+        return new Rectangle(this.coordX,this.coordY,this.width,this.height);
     }
 
     @Override

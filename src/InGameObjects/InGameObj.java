@@ -3,11 +3,14 @@ package InGameObjects;
 import java.awt.*;
 
 public abstract class InGameObj {
-    protected int coordX, coordY, velX = 0, velY= 0;
+    protected int coordX, coordY, vel, height, width;
 
-    public InGameObj(int x,int y){
+    public InGameObj(int x,int y,int height1,int width1){
         this.coordX = x;
         this.coordY = y;
+
+        this.height = height1;
+        this.width = width1;
     }
     public abstract void actionUpdate();
     public abstract void render(Graphics g,int spriteNum);

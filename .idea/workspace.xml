@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="140034d7-8d69-48bd-b0d4-01319bc68dc4" name="Changes" comment="added sprite updating, todo fix error on loading images into array">
+    <list default="true" id="140034d7-8d69-48bd-b0d4-01319bc68dc4" name="Changes" comment="-Added game objects and an object handling queue.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlimeEnemyObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlimeEnemyObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="MapAndEnemyUpdates" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

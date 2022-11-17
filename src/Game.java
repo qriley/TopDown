@@ -1,6 +1,9 @@
+import InGameObjects.BulletObj;
+import InGameObjects.SlimeEnemyObj;
+import Map.MapGrid;
+
 import java.awt.*;
 import java.awt.image.BufferStrategy;
-import java.util.Map;
 
 public class Game extends Canvas implements Runnable{
 

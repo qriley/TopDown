@@ -1,3 +1,5 @@
+import InGameObjects.InGameObj;
+
 import java.awt.*;
 import java.util.LinkedList;
 

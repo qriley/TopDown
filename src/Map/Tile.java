@@ -1,3 +1,7 @@
+package Map;
+
+import InGameObjects.InGameObj;
+
 import javax.imageio.*;
 import java.awt.image.BufferedImage;
 import java.io.File;

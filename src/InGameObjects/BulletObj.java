@@ -1,3 +1,5 @@
+package InGameObjects;
+
 import java.awt.*;
 
 public class BulletObj extends InGameObj{

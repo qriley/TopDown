@@ -56,7 +56,7 @@ Now the graphics are images are loaded in as a buffered image and rendered with 
   <tr>
     <th>-Add hitboxes and collision (getBounds).</th>
     <th>Normal</th>
-    <th>In Progress</th>
+    <th>Done for now</th>
   </tr>
   <tr>
     <th>- Add weapon / gun object to shoot bullet objects.</th>

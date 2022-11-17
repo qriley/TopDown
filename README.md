@@ -27,6 +27,7 @@ Now the graphics are images are loaded in as a buffered image and rendered with 
   <li>-Build out movement/playable charactor.</li>
   <li>-Add inventory system.</li>
   <li>-Build out map generation/map builder.</li>
+  <li>-Add hitboxes (getBounds)</li>
   <ul>
 
 

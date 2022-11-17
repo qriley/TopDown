@@ -22,16 +22,53 @@ Now the graphics are images are loaded in as a buffered image and rendered with 
 
 
 # ToDo Next
-<ul>
-  <li>-Create test itemOject similar to slimeEnemyObj.</li>
-  <li>-Build out object graphics.</li>
-  <li>-Build out movement/playable charactor.</li>
-  <li>-Add inventory system.</li>
-  <li>-Build out map generation/map builder.</li>
-  <li>-Add hitboxes and collision (getBounds).</li>
-  <li>- Add weapon / gun object to shoot bullet objects.</li>
-  <li>- Add enemy ai, aggro to follow player, agro speed will be set. Will wonder at normal speed and stop randomly when isAggro is false.</li>
-  <ul>
+<table>
+  <tr>
+    <th>Task</th>
+    <th>Priority</th>
+    <th>Progress</th>
+  </tr>
+  <tr>
+    <th>-Create test itemOject similar to slimeEnemyObj.</th>
+    <th>High</th>
+    <th>In Progress</th>
+  </tr>
+  <tr>
+    <th>-Build out object graphics.</th>
+    <th>High</th>
+    <th>Done for now</th>
+  </tr>
+  <tr>
+    <th>-Build out movement/playable charactor.</th>
+    <th>Normal</th>
+    <th>Planning</th>
+  </tr>
+  <tr>
+    <th>-Add inventory system.</th>
+    <th>Low</th>
+    <th>Not Started</th>
+  </tr>
+  <tr>
+    <th>-Build out map generation/map builder.</th>
+    <th>Normal</th>
+    <th>Planning</th>
+  </tr>
+  <tr>
+    <th>-Add hitboxes and collision (getBounds).</th>
+    <th>Normal</th>
+    <th>In Progress</th>
+  </tr>
+  <tr>
+    <th>- Add weapon / gun object to shoot bullet objects.</th>
+    <th>Normal</th>
+    <th>In Progress</th>
+  </tr>
+  <tr>
+    <th>- Add enemy ai, aggro to follow player, agro speed will be set. Will wonder at normal speed and stop randomly when isAggro is false.</th>
+    <th>High</th>
+    <th>Not Started</th>
+  </tr>
+</table>
 
 
 

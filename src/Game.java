@@ -15,14 +15,23 @@ public class Game extends Canvas implements Runnable{
 
     private Thread thread;
     private ObjectQueue objQueue;
-    private MapGrid myMapGrid;
+    private MapGrid myMapGrid = new MapGrid();;
     public Game(String version){
+
         gameVersion = version;
+
         new Window(width,height, gameTitle+" - "+version, this);
+
         start();
+
+        myMapGrid.LoadMap();
+
         objQueue = new ObjectQueue();
-        objQueue.addObj(new SlimeEnemyObj(100,100));
+        objQueue.addObj(new SlimeEnemyObj(50,100));
+        objQueue.addObj(new SlimeEnemyObj(100,200));
+        objQueue.addObj(new SlimeEnemyObj(50,300));
         objQueue.addObj(new BulletObj(100,100));
+
     }
     public void start(){
         isRunning = true;
@@ -76,12 +85,11 @@ public class Game extends Canvas implements Runnable{
             this.createBufferStrategy(3);
             return;
         }
-
         Graphics graphic = buff.getDrawGraphics();
-
-        graphic.setColor(Color.BLUE);
+        //graphic.setColor(Color.BLUE);
+        myMapGrid.LoadGraphics(graphic);
         //graphic.fillRect(0,0,width,height);
-        myMapGrid = new MapGrid(graphic);
+
         objQueue.onRender(graphic);
 
         graphic.dispose();

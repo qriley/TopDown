@@ -27,10 +27,11 @@ public class Game extends Canvas implements Runnable{
         myMapGrid.LoadMap();
 
         objQueue = new ObjectQueue();
-        objQueue.addObj(new SlimeEnemyObj(50,100));
-        objQueue.addObj(new SlimeEnemyObj(100,200));
-        objQueue.addObj(new SlimeEnemyObj(50,300));
-        objQueue.addObj(new BulletObj(100,100));
+        objQueue.addObj(new SlimeEnemyObj(50,100, 100, 1,1,3,'r',16,16));
+        objQueue.addObj(new SlimeEnemyObj(100,200, 100, 1,1,3,'r',16,16));
+        objQueue.addObj(new SlimeEnemyObj(50,300, 100, 1,1,3,'r',16,16));
+        objQueue.addObj(new SlimeEnemyObj(50,400, 100, 0,1,3,'n',16,16));
+        objQueue.addObj(new BulletObj(100,100,'r', 1,10));
 
     }
     public void start(){

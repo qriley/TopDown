@@ -6,8 +6,10 @@ public abstract class EnemyObj extends InGameObj{
     private int aggroVel = 3; //default aggro vel 3
     private int enemyHealth = 100; //default enemy health at 100
     private int level = 1; //default level 1
+    private int currHealth = enemyHealth; //default enemy health at 100
 
-    BufferedImage graphicImg = null;
+
+    BufferedImage graphicImg[] = null;
 
 
     public EnemyObj(int x, int y) {
@@ -18,6 +20,7 @@ public abstract class EnemyObj extends InGameObj{
         super(x, y);
         velX=speed;
         enemyHealth = health;
+        currHealth = health;
         level = lvl;
         aggroVel = aggroSpeed;
     }
@@ -34,7 +37,7 @@ public abstract class EnemyObj extends InGameObj{
     }
 
     @Override
-    public void render(Graphics g) {
+    public void render(Graphics g,int spriteNum) {
         //g.setColor(Color.green);
         //g.fillRect(coordX,coordY,16,16);
     }

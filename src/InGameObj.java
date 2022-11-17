@@ -8,7 +8,7 @@ public abstract class InGameObj {
         this.coordY = y;
     }
     public abstract void actionUpdate();
-    public abstract void render(Graphics g);
+    public abstract void render(Graphics g,int spriteNum);
     public abstract Rectangle getBounds();
 
     public int getCoordX(){

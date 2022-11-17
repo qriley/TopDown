@@ -1,13 +1,3 @@
-<style>
-.tableTop {
-  background-color: powderblue;
-  color: 999;
-  }
-h1   {color: blue;}
-p    {color: red;}
-</style>
-
-
 # TopDown
 A top down game engine built from scratch in java.
 *IN PROGRESS*
@@ -33,7 +23,7 @@ Now the graphics are images are loaded in as a buffered image and rendered with 
 
 # ToDo Next
 <table>
-  <tr style="background-color: powderblue;">
+  <tr>
     <th>Task</th>
     <th>Priority</th>
     <th>Progress</th>

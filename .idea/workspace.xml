@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="140034d7-8d69-48bd-b0d4-01319bc68dc4" name="Changes" comment="Added a base itemObject">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Map/MapGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/MapGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/Tile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,12 +138,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Map/MapGrid.java</url>
-          <line>31</line>
+          <line>32</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Map/MapGrid.java</url>
-          <line>22</line>
+          <line>24</line>
           <properties class="Map.MapGrid" method="LoadGraphics">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

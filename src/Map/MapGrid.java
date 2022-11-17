@@ -17,7 +17,9 @@ public class MapGrid {
                 int swag =(int)Math.floor(Math.random()*6);
                 System.out.print(swag);
                 map[row][col] = new Tile(swag);
+
             }
+            System.out.print("\n");
         }
     }
     public void LoadGraphics(Graphics g){
@@ -28,12 +30,9 @@ public class MapGrid {
             for (int col = 0; col < map[row].length; col++) {
                 Tile curr = map[row][col];
                 BufferedImage tileImage =ImageLoader(curr.imageAddresses[curr.type]);
-                System.out.print(map[row][col].type);
                 render(x,y,g,tileImage,0);
                 y+=32;
-                //System.out.println("x: "+x+" y: "+y);
             }
-            System.out.print("\n");
             y=0;
             x+=32;
         }

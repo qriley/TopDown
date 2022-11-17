@@ -15,8 +15,7 @@ public class BulletObj extends InGameObj{
 
     }
 
-    @Override
-    public void render(Graphics g) {
+    public void render(Graphics g,int spriteNum) {
         g.setColor(Color.black);
         g.drawLine(coordX,coordY,coordX+10,coordY);
     }

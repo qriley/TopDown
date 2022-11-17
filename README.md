@@ -33,7 +33,7 @@ Now the graphics are images are loaded in as a buffered image and rendered with 
 
 # ToDo Next
 <table>
-  <tr class="tableTop">
+  <tr style="background-color: powderblue;">
     <th>Task</th>
     <th>Priority</th>
     <th>Progress</th>

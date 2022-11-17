@@ -21,9 +21,20 @@ Now the graphics are images are loaded in as a buffered image and rendered with 
 
 
 # ToDo Next
--Create test itemOject similar to slimeEnemyObj
--Build out object graphics
--Build out movement/playable charactor.
--Add inventory system.
--Build out map generation/map builder.
+<ul>
+  <li>-Create test itemOject similar to slimeEnemyObj</li>
+  <li>-Build out object graphics</li>
+  <li>-Build out movement/playable charactor.</li>
+  <li>-Add inventory system.</li>
+  <li>-Build out map generation/map builder.</li>
+  <ul>
+
+
+
+
+
+
+
+
+
 

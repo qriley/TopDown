@@ -1,16 +1,18 @@
 import java.awt.*;
 import java.awt.image.BufferStrategy;
+import java.util.Map;
 
 public class Game extends Canvas implements Runnable{
 
-    public int width = 1000;
-    public int height = 563;
+    public int width = 1280;
+    public int height = 720;
     public String gameVersion;
     public String gameTitle = "Shooty Gun Gun";
     private boolean isRunning = false;
 
     private Thread thread;
     private ObjectQueue objQueue;
+    private MapGrid myMapGrid;
     public Game(String version){
         gameVersion = version;
         new Window(width,height, gameTitle+" - "+version, this);
@@ -75,8 +77,8 @@ public class Game extends Canvas implements Runnable{
         Graphics graphic = buff.getDrawGraphics();
 
         graphic.setColor(Color.BLUE);
-        graphic.fillRect(0,0,width,height);
-
+        //graphic.fillRect(0,0,width,height);
+        myMapGrid = new MapGrid(graphic);
         objQueue.onRender(graphic);
 
         graphic.dispose();

@@ -12,7 +12,7 @@ public class SlimeEnemyObj extends EnemyObj{
     private int level = 1; //default level 1
 
 
-    BufferedImage graphicImage[] = null;
+    BufferedImage[] graphicImg = new BufferedImage[2];
 
 
     public SlimeEnemyObj(int x, int y) {

@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="140034d7-8d69-48bd-b0d4-01319bc68dc4" name="Changes" comment="Streamlining some object movement. Adding height and width for collision.">
+    <list default="true" id="140034d7-8d69-48bd-b0d4-01319bc68dc4" name="Changes" comment="Added a base itemObject">
+      <change afterPath="$PROJECT_DIR$/src/TopDown/InGameObjects/GunObj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InGameObjects/BulletObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InGameObjects/BulletObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InGameObjects/EnemyObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InGameObjects/EnemyObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InGameObjects/InGameObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InGameObjects/InGameObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InGameObjects/SlimeEnemyObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InGameObjects/SlimeEnemyObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopDown/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InGameObjects/BulletObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopDown/InGameObjects/BulletObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InGameObjects/EnemyObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopDown/InGameObjects/EnemyObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InGameObjects/InGameObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopDown/InGameObjects/InGameObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InGameObjects/ItemObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopDown/InGameObjects/ItemObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InGameObjects/SlimeEnemyObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopDown/InGameObjects/SlimeEnemyObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/MapGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopDown/Map/MapGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopDown/Map/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopDown/ObjectQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopDown/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,28 +164,28 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ObjectQueue.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/src/TopDown/ObjectQueue.java</url>
+          <line>27</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ObjectQueue.java</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/src/TopDown/ObjectQueue.java</url>
+          <line>25</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ObjectQueue.java</url>
-          <line>35</line>
+          <url>file://$PROJECT_DIR$/src/TopDown/ObjectQueue.java</url>
+          <line>36</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ObjectQueue.java</url>
-          <line>31</line>
+          <url>file://$PROJECT_DIR$/src/TopDown/ObjectQueue.java</url>
+          <line>32</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ObjectQueue.java</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/src/TopDown/ObjectQueue.java</url>
+          <line>37</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>

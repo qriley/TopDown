@@ -1,4 +1,4 @@
-package InGameObjects;
+package TopDown.InGameObjects;
 
 public abstract class ItemObject extends InGameObj{
 

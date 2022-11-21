@@ -1,4 +1,4 @@
-package Map;
+package TopDown.Map;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

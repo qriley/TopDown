@@ -3,7 +3,7 @@ A top down game engine built from scratch in java.
 *IN PROGRESS*
 Version: 0.0.0
 
-Game contains the main method, game loop, thanks to notch, as well rendering.
+TopDown.Game contains the main method, game loop, thanks to notch, as well rendering.
 # Objects
 Currently there are a number of objects in developement, the base abstract class InGameObject, the EnemyObject and ItemObject, and more objects extending from there.
 There is also an object queue to manage and update each object currently in game.

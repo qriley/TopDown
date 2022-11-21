@@ -1,6 +1,9 @@
-package InGameObjects;
+package TopDown.InGameObjects;
+
+import TopDown.ObjectQueue;
 
 import java.awt.*;
+
 
 public class BulletObj extends InGameObj{
 
@@ -17,7 +20,7 @@ public class BulletObj extends InGameObj{
     }
 
     @Override
-    public void actionUpdate() {
+    public void actionUpdate(ObjectQueue objQueue) {
 
         int actualSpeed=vel;
 

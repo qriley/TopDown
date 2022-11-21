@@ -31,7 +31,7 @@ Now the graphics are images are loaded in as a buffered image and rendered with 
   <tr>
     <th>-Create test itemOject similar to slimeEnemyObj.</th>
     <th>High</th>
-    <th>In Progress</th>
+    <th>Done</th>
   </tr>
   <tr>
     <th>-Build out object graphics.</th>
@@ -61,10 +61,15 @@ Now the graphics are images are loaded in as a buffered image and rendered with 
   <tr>
     <th>- Add weapon / gun object to shoot bullet objects.</th>
     <th>Normal</th>
-    <th>In Progress</th>
+    <th>Done</th>
   </tr>
   <tr>
     <th>- Add enemy ai, aggro to follow player, agro speed will be set. Will wonder at normal speed and stop randomly when isAggro is false.</th>
+    <th>High</th>
+    <th>Not Started</th>
+  </tr>
+  <tr>
+    <th>- Create user input functionality.</th>
     <th>High</th>
     <th>Not Started</th>
   </tr>

@@ -1,4 +1,4 @@
-package InGameObjects;
+package TopDown.InGameObjects;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -32,7 +32,7 @@ public class SlimeEnemyObj extends EnemyObj{
         }
     }
     /*@Override
-    public void actionUpdate() {
+    public void actionUpdate(ObjectQueue objQueue) {
         coordX+=velX;
         coordY+=velY;
         if(this.getIsAggro()){

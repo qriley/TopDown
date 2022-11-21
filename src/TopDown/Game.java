@@ -1,6 +1,8 @@
-import InGameObjects.BulletObj;
-import InGameObjects.SlimeEnemyObj;
-import Map.MapGrid;
+package TopDown;
+
+import TopDown.InGameObjects.GunObj;
+import TopDown.InGameObjects.SlimeEnemyObj;
+import TopDown.Map.MapGrid;
 
 import java.awt.*;
 import java.awt.image.BufferStrategy;
@@ -31,7 +33,7 @@ public class Game extends Canvas implements Runnable{
         objQueue.addObj(new SlimeEnemyObj(100,200, 100, 1,1,3,'r',16,16));
         objQueue.addObj(new SlimeEnemyObj(50,300, 100, 1,1,3,'r',16,16));
         objQueue.addObj(new SlimeEnemyObj(50,400, 100, 0,1,3,'n',16,16));
-        objQueue.addObj(new BulletObj(100,100,'r', 1,10));
+        objQueue.addObj(new GunObj(150,400, 100, false,false,16,16,20));
 
     }
     public void start(){
@@ -62,7 +64,7 @@ public class Game extends Canvas implements Runnable{
             lastTime = now;
             while(delta >= 1){
                 tick();
-                // updates++;
+                 updates++;
                 delta--;
             }
             render();
@@ -72,7 +74,7 @@ public class Game extends Canvas implements Runnable{
                 timer += 1000;
                 System.out.println("FPS: " + frames + " TICKS: " + updates);
                 frames = 0;
-                // updates = 0;
+                 updates = 0;
             }
         }
         stop();
@@ -100,7 +102,7 @@ public class Game extends Canvas implements Runnable{
 
         public static void main(String[] args) {
             String gameVersion = "0.0.0";
-            System.out.println("Starting Game! Version: "+gameVersion);
+            System.out.println("Starting TopDown.Game! Version: "+gameVersion);
             new Game(gameVersion);
         }
 

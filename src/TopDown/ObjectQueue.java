@@ -1,4 +1,5 @@
-import InGameObjects.InGameObj;
+package TopDown;
+import TopDown.InGameObjects.InGameObj;
 
 import java.awt.*;
 import java.util.LinkedList;
@@ -10,7 +11,7 @@ public class ObjectQueue {
     public void onTick(){
         for (int i=0;i<objects.size();i++){
             InGameObj curr = objects.get(i);
-            curr.actionUpdate();
+            curr.actionUpdate(this);
             checkcollision(curr);
         }
         spriteUpdate ^= 1;

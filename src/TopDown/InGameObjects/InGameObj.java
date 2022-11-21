@@ -1,4 +1,6 @@
-package InGameObjects;
+package TopDown.InGameObjects;
+
+import TopDown.ObjectQueue;
 
 import java.awt.*;
 
@@ -12,7 +14,7 @@ public abstract class InGameObj {
         this.height = height1;
         this.width = width1;
     }
-    public abstract void actionUpdate();
+    public abstract void actionUpdate(ObjectQueue objQueue);
     public abstract void render(Graphics g,int spriteNum);
     public Rectangle getBounds() {
         return new Rectangle(this.coordX,this.coordY,this.width,this.height);
@@ -31,4 +33,5 @@ public abstract class InGameObj {
     public void setCoordY(int y){
         this.coordY = y;
     }
+
 }

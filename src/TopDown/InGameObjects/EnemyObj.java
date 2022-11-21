@@ -1,4 +1,6 @@
-package InGameObjects;
+package TopDown.InGameObjects;
+
+import TopDown.ObjectQueue;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -31,7 +33,7 @@ public abstract class EnemyObj extends InGameObj{
     }
 
     @Override
-    public void actionUpdate() {
+    public void actionUpdate(ObjectQueue objQueue) {
 
         int actualSpeed=vel;
 

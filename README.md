@@ -29,6 +29,11 @@ Now the graphics are images are loaded in as a buffered image and rendered with 
     <th>Progress</th>
   </tr>
   <tr>
+    <th>- Investigate and fix performance issue.</th>
+    <th>Critical</th>
+    <th>In Progress</th>
+  </tr>
+  <tr>
     <th>-Create test itemOject similar to slimeEnemyObj.</th>
     <th>High</th>
     <th>Done</th>
